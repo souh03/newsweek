@@ -1,0 +1,194 @@
+
+body{
+  background-color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 17px;
+
+}
+main{
+  margin: 50px;
+  margin-top: 0px ;
+}
+nav{
+  background-color:red ;
+   display: flex;
+  justify-content: space-evenly;
+}
+nav p{
+  color: white;
+  margin-top: 60px;
+  margin-right:120px;
+}
+  h1{
+     color: white;
+     font-size: 80px;
+     font-weight: bolder;
+ }  
+  .login-sub{
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+ .login-sub a{
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+   font-weight: bold;
+  
+ }
+.login-sub button{
+  margin-left: 30px;
+  background-color:gold;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold ;
+  padding: 6px 13px;
+}
+
+.menu ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+.menu a{
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-weight: bold;
+
+}
+.menu a:hover{
+  color: red;
+}
+
+.stories { 
+border-top: 1px solid gainsboro;
+border-bottom: 1px solid gainsboro;
+margin-right: 2rem;
+padding: 8px 38px;
+ 
+}
+
+.stories p{
+  margin-right: 10px;
+font-weight: bold;
+}
+.stories a,p {
+display: inline;
+text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: bold
+}
+.stories  a+a{
+  margin-left: 20px;
+}
+.stories a{
+  color:gray;
+}
+.stories a:hover{
+  color: red;
+}
+
+main{
+  background-color: white;
+  
+}
+
+
+
+.flex-container {
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem 0;
+}
+
+.flex-container:first-of-type {
+  border-bottom: 3px double rgb(217, 217, 217);
+}
+
+.debating {
+  border-top: 4px solid gainsboro;
+  border-bottom: 4px solid gainsboro;
+}
+
+.flex-container img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+img.order {
+  order: 3;
+}
+
+.flex-container div {
+  margin-left: 17px;
+}
+
+.flex-container p:first-of-type {
+  font-weight: bold;
+  
+}
+
+.flex-container p:last-of-type {
+  color:gray;
+  font-size: 15px;
+}
+
+
+.flex-container span {
+  font-weight: bold;
+  font-size: small;
+}
+
+.vs {
+  align-items: center;
+  background-color: #000;
+  border-radius: 50%;
+  color: gainsboro;
+  display: flex;
+  height: 2rem;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: -17px;
+  text-align: center;
+  width: 32px;
+}
+
+
+h2 {
+  color:gray;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 30px;
+}
+h5{
+  font-weight: bold;
+}
+p{
+  font-weight: lighter;
+  
+}
+.card-par{
+  color: gray;
+}
+
+
+@media (max-width: 800px) {
+  .menu a {
+    padding: 0 5px;
+  }
+}
+
+@media (max-width: 900px) {
+  .actions,
+  .menu,
+  .topics {
+    display: none;
+  }
+}
+
